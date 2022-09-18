@@ -786,6 +786,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"clsx@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "clsx@npm:1.2.1"
+  checksum: 30befca8019b2eb7dbad38cff6266cf543091dae2825c856a62a8ccf2c3ab9c2907c4d12b288b73101196767f66812365400a227581484a05f968b0307cfaf12
+  languageName: node
+  linkType: hard
+
 "color-convert@npm:^2.0.1":
   version: 2.0.1
   resolution: "color-convert@npm:2.0.1"
@@ -1521,6 +1528,7 @@ __metadata:
     "@types/react": 18.0.20
     "@types/react-dom": 18.0.6
     autoprefixer: ^10.4.11
+    clsx: ^1.2.1
     daisyui: ^2.28.0
     eslint: 8.23.1
     eslint-config-next: 12.3.0
