@@ -8,6 +8,14 @@ const Home: NextPage = () => {
         <title>Large Type</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <div className="flex flex-col gap-3 p-4">
+        <textarea
+          className="textarea textarea-bordered"
+          placeholder="Text"
+          rows={5}
+        ></textarea>
+        <button className="btn">Show</button>
+      </div>
     </div>
   )
 }
