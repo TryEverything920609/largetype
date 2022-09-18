@@ -128,7 +128,10 @@ function autofit(container: HTMLDivElement, content: HTMLDivElement) {
   for (let i = 0; i < 10; i++) {
     const size = (min + max) / 2
     content.style.fontSize = `${size}px`
-    if (content.offsetHeight > container.offsetHeight) {
+    if (
+      content.offsetHeight > container.offsetHeight ||
+      content.offsetWidth > container.offsetWidth
+    ) {
       max = size
     } else {
       min = size
