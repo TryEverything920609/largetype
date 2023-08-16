@@ -93,7 +93,9 @@ const TextDisplay: FC<TextDisplay> = (props) => {
       ref={container}
     >
       <div ref={content}>
-        <div className="p-[0.5em]">{props.text}</div>
+        <div className="p-[0.5em] leading-[1.125em] tracking-[0.01em] font-semibold">
+          {props.text}
+        </div>
       </div>
       <div
         className={clsx(
